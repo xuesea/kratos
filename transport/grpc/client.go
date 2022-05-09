@@ -16,9 +16,9 @@ import (
 	// init resolver
 	_ "github.com/go-kratos/kratos/v2/transport/grpc/resolver/direct"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	grpcmd "google.golang.org/grpc/metadata"
+	"google.golang.org/grpc-b"
+	"google.golang.org/grpc-b/credentials"
+	grpcmd "google.golang.org/grpc-b/metadata"
 )
 
 // ClientOption is gRPC client option.

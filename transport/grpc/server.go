@@ -17,12 +17,12 @@ import (
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/health"
-	"google.golang.org/grpc/health/grpc_health_v1"
-	grpcmd "google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/reflection"
+	"google.golang.org/grpc-b"
+	"google.golang.org/grpc-b/credentials"
+	"google.golang.org/grpc-b/health"
+	"google.golang.org/grpc-b/health/grpc_health_v1"
+	grpcmd "google.golang.org/grpc-b/metadata"
+	"google.golang.org/grpc-b/reflection"
 )
 
 var (

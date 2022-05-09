@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc-b/codes"
 )
 
 func TestToGRPCCode(t *testing.T) {

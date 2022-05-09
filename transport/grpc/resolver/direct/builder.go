@@ -3,7 +3,7 @@ package direct
 import (
 	"strings"
 
-	"google.golang.org/grpc/resolver"
+	"google.golang.org/grpc-b/resolver"
 )
 
 func init() {

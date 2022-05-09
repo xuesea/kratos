@@ -1,6 +1,6 @@
 package direct
 
-import "google.golang.org/grpc/resolver"
+import "google.golang.org/grpc-b/resolver"
 
 type directResolver struct{}
 

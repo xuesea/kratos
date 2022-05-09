@@ -3,7 +3,7 @@ package status
 import (
 	"net/http"
 
-	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc-b/codes"
 )
 
 const (

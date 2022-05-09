@@ -6,7 +6,7 @@ import (
 
 	httpstatus "github.com/go-kratos/kratos/v2/transport/http/status"
 	"google.golang.org/genproto/googleapis/rpc/errdetails"
-	"google.golang.org/grpc/status"
+	"google.golang.org/grpc-b/status"
 	"google.golang.org/protobuf/proto"
 )
 

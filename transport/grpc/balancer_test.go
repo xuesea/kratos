@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-kratos/kratos/v2/selector"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/metadata"
+	"google.golang.org/grpc-b/metadata"
 )
 
 func TestTrailer(t *testing.T) {

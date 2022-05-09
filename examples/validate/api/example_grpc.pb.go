@@ -4,9 +4,9 @@ package v1
 
 import (
 	context "context"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "google.golang.org/grpc-b"
+	codes "google.golang.org/grpc-b/codes"
+	status "google.golang.org/grpc-b/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file
@@ -16,7 +16,7 @@ const _ = grpc.SupportPackageIsVersion7
 
 // ExampleServiceClient is the client API for ExampleService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc-b/?tab=doc#ClientConn.NewStream.
 type ExampleServiceClient interface {
 	TestValidate(ctx context.Context, in *Request, opts ...grpc.CallOption) (*Reply, error)
 }

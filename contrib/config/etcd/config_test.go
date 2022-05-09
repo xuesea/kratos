@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	clientv3 "go.etcd.io/etcd/client/v3"
-	"google.golang.org/grpc"
+	"google.golang.org/grpc-b"
 )
 
 const testKey = "/kratos/test/config"

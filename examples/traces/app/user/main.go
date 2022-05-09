@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/resource"
 	tracesdk "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
-	grpcx "google.golang.org/grpc"
+	grpcx "google.golang.org/grpc-b"
 )
 
 // go build -ldflags "-X main.Version=x.y.z"

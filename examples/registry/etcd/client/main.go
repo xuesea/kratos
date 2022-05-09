@@ -10,7 +10,7 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
 	clientv3 "go.etcd.io/etcd/client/v3"
-	srcgrpc "google.golang.org/grpc"
+	srcgrpc "google.golang.org/grpc-b"
 )
 
 func main() {

@@ -10,9 +10,9 @@ import (
 	"github.com/go-kratos/kratos/v2/selector/wrr"
 	"github.com/go-kratos/kratos/v2/transport"
 
-	gBalancer "google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/metadata"
+	gBalancer "google.golang.org/grpc-b/balancer"
+	"google.golang.org/grpc-b/balancer/base"
+	"google.golang.org/grpc-b/metadata"
 )
 
 var (

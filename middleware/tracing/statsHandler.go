@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"go.opentelemetry.io/otel/trace"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/stats"
+	"google.golang.org/grpc-b/peer"
+	"google.golang.org/grpc-b/stats"
 )
 
 // ClientHandler is tracing ClientHandler

@@ -8,8 +8,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/registry"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"google.golang.org/grpc-b/resolver"
+	"google.golang.org/grpc-b/serviceconfig"
 )
 
 type mockLogger struct {

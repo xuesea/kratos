@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"go.opentelemetry.io/otel/trace"
-	"google.golang.org/grpc/peer"
+	"google.golang.org/grpc-b/peer"
 	"google.golang.org/protobuf/proto"
 )
 

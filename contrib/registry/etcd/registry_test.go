@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
+	"google.golang.org/grpc-b"
 
 	"github.com/go-kratos/kratos/v2/registry"
 	clientv3 "go.etcd.io/etcd/client/v3"

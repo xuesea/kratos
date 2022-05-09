@@ -4,9 +4,9 @@ package hello
 
 import (
 	context "context"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "google.golang.org/grpc-b"
+	codes "google.golang.org/grpc-b/codes"
+	status "google.golang.org/grpc-b/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file
@@ -16,7 +16,7 @@ const _ = grpc.SupportPackageIsVersion7
 
 // HelloClient is the client API for Hello service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc-b/?tab=doc#ClientConn.NewStream.
 type HelloClient interface {
 	GetNumber(ctx context.Context, in *GetNumberRequest, opts ...grpc.CallOption) (Hello_GetNumberClient, error)
 	UploadLog(ctx context.Context, opts ...grpc.CallOption) (Hello_UploadLogClient, error)

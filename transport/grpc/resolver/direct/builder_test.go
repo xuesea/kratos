@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"google.golang.org/grpc-b/resolver"
+	"google.golang.org/grpc-b/serviceconfig"
 )
 
 func TestDirectBuilder_Scheme(t *testing.T) {

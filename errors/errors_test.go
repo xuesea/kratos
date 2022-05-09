@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/test/grpc_testing"
+	"google.golang.org/grpc-b/codes"
+	"google.golang.org/grpc-b/status"
+	"google.golang.org/grpc-b/test/grpc_testing"
 )
 
 func TestError(t *testing.T) {

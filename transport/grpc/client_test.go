@@ -9,7 +9,7 @@ import (
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/registry"
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
+	"google.golang.org/grpc-b"
 )
 
 func TestWithEndpoint(t *testing.T) {

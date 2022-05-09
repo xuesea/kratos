@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	srcgrpc "google.golang.org/grpc"
+	srcgrpc "google.golang.org/grpc-b"
 
 	"github.com/go-kratos/kratos/contrib/registry/discovery/v2"
 	"github.com/go-kratos/kratos/examples/helloworld/helloworld"

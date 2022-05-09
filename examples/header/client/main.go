@@ -9,8 +9,8 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	stdgrpc "google.golang.org/grpc"
-	grpcmd "google.golang.org/grpc/metadata"
+	stdgrpc "google.golang.org/grpc-b"
+	grpcmd "google.golang.org/grpc-b/metadata"
 )
 
 func main() {
